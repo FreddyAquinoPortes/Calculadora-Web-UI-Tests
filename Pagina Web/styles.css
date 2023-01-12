@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input[type=text] {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 10em;
+}
+
+input[type=button] {
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 1em;
+}
+
+input[type=button]:hover {
+    background-color: #3e8e41;
+}
+
+#result {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4CAF50;
+}
